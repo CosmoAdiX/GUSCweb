@@ -1,0 +1,37 @@
+@font-face {
+    font-family: qanoar;
+    src: url("../fonts/Qanoar.otf");
+}
+
+@font-face {
+    font-family: battlebridge;
+    src: url("../fonts/BattlesbridgeDemoRegular.ttf");
+}
+
+.right-nav h3::after{
+    content:"";
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    z-index: 1;
+    transition:all ease 0.4s;
+    border-radius: 50%;
+}
+
+.right-nav h3:hover::after{
+    bottom: 0;
+    border-radius: 0;
+}
+
+.right-nav h3 a{
+    transition:all ease 0.25s;
+    position: relative;
+    z-index: 44;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
