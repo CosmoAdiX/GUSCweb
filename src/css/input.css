@@ -32,6 +32,24 @@
     z-index: 44;
 }
 
+.page1 {
+    background-image: url("../bgs/aeth.jpg");
+    background-position: center
+}
+
+.page2 {
+    background-image: url("../bgs/aeth.jpg");
+}
+
+.page3 {
+    background-image: url("../bgs/aeth.jpg");
+}
+
+.page4 {
+    background-image: url("../bgs/aeth.jpg");
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
